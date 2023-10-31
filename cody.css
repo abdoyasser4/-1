@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+
+
+.main {
+    padding: 100px 180px;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    background: url(معنى\ ألوان\ علم\ فلسطين.jpeg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color:rgb(58, 108, 244);
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-align: right;
+}
+
+.main h2 span {
+    display: inline-block;
+    color: rgb(58, 108, 244);
+    font-weight: 900;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.main h3 {
+    color: rgb(58, 108, 244);
+    font-size: 1.2em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.pro-btn {
+    color: #fff;
+    background-color: rgb(58, 108, 244);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600px;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.5s ease;
+}
+
+.pro-btn:hover {
+    background-color: rgb(23, 101, 101);
+    transform: scale(1.1);
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(58, 108, 244);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pro-section {
+    background-color: rgb(0, 0, 22);
+    margin-bottom: 10px;
+    padding: 100px;
+}
+
+.pro-section .content {
+    margin-top: 30px;
+}
+
+.pro-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 6em;
+    width: 15em;
+    overflow: hidden;
+    border-radius: 7px;
+    margin: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgb(251, 251, 251);
+}
+
+.pro-card:hover {
+    transition: 0.7s ease;
+    transform: scale(1.1);
+}
+
+.pro-card:hover .card-img {
+    opacity: 0.9;
+}
+
+.card-img img {
+    width: 100%;
+    height: 300px;
+}
+
+.pro-info {
+    padding: 1em;
+}
+
+.pro-cate {
+    font-size: 0.8em;
+    color: rgb(0, 0, 16);
+}
+
+.pro-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: rgb(0, 0, 22);
+    color: #fff;
+    padding: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-title {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.footer-title span {
+    color: #3a6cf4;
+}
+
+.footer .social-icons a {
+    font-size: 2em;
+}
+
+.footer .social-icons a:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+@media screen and (max-width:1028px) {
+    header {
+        padding-left: 10px;
+    }
+    .title {
+        font-size: 1.8em;
+    }
+    .main {
+        padding: 100px;
+        min-height: 40vh;
+    }
+    section {
+        padding: 60px;
+    }
+    .content {
+        flex-direction: row;
+        align-items: center;
+    }
+    .pro-card{
+        width: 15em;
+    }
+    .card-img img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:985px) {
+    body {
+        font-size: 12px;
+    }
+    .main {
+        padding: 60px;
+        min-height: 80vh;
+    }
+    .main div{
+        margin-top: 20px;
+    }
+    .nav .skill {
+        margin-top: 7px;
+        margin-left: 16px;
+        margin-right: -12px;
+    }
+    .nav .prog {
+        margin: 7px;
+        margin-right: -9px;
+        margin-left: 3px;
+    }
+    .nav .cont {
+        margin-top: 7px;
+    }
+    .nav {
+        margin: -10px;
+        display: flex;
+    }
+    .tit {
+        margin-left: -30px;
+    }
+    .card-img img {
+        height: 230px;
+    }
+    .sk {
+        padding: 70px;
+    }
+    .pro-section {
+        padding: 40px;
+    }
+    .pro-card{
+        width: 15em;
+    }
+}
+
+@media screen and (max-width:683px) {
+    body {
+        font-size: 15px;
+    }
+    .nav {
+        margin-left: 40px;
+    }
+    .main {
+        padding: 20px;
+        min-height: 90vh;
+    }
+    .card-img img {
+        height: 200px;
+    }
+    .sk {
+        padding: 50px;
+    }
+    .pro-section {
+        padding: 40px;
+    }
+    .pro-card{
+        width: 13.5em;
+    }
+ .main div {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:595px) {
+    body {
+        font-size: 15px;
+    }
+    header {
+        justify-content: space-between;
+    }
+    .nav {
+        padding: 2px;
+        margin-left: -10px;
+    }
+    .tit {
+        margin-left: -8px;
+    }
+    .sk {
+        padding: 10px;
+    }
+    .card-img img {
+        height: 150px;
+    }
+    .pro-section {
+        padding: 10px;
+    }
+    .pro-card{
+        width: 11em;
+    }
+
+}
+@media screen and (max-width:580px) {
+    body {
+        font-size: 13px;
+    }
+    header {
+        justify-content: space-between;
+    }
+    .nav {
+        padding: 2px;
+        margin-left: -10px;
+    }
+    .tit {
+        margin-left: -8px;
+    }
+    .sk {
+        padding: 10px;
+    }
+    .card-img img {
+        height: 150px;
+    }
+    .pro-section {
+        padding: 10px;
+    }
+    .pro-card{
+        width: 13em;
+    }
+
+}
+@media screen and (max-width:475px) {
+    body {
+        font-size: 13px;
+    }
+    header {
+        justify-content: space-between;
+    }
+    .nav {
+        padding: 2px;
+        margin-left: -10px;
+    }
+    .tit {
+        margin-left: -8px;
+    }
+    .sk {
+        padding: 10px;
+    }
+    .card-img img {
+        height: 160px;
+    }
+    .pro-section {
+        padding: 10px;
+    }
+    .pro-card{
+        width: 12em;
+    }
+
+}
+@media screen and (max-width:445px) {
+    body {
+        font-size: 13px;
+    }
+    header {
+        justify-content: space-between;
+    }
+    .nav {
+        padding: 2px;
+        margin-left: -10px;
+    }
+    .tit {
+        margin-left: -8px;
+    }
+  
+    .card-img img {
+        height: 170px;
+    }
+   
+    .pro-card{
+        width: 12em;
+    }
+
+}
+@media screen and (max-width:423px) {
+    body {
+        font-size: 11px;
+    }
+    header {
+        justify-content: space-between;
+    }
+    .nav {
+        padding: 2px;
+        margin-left: -10px;
+    }
+    .tit {
+        margin-left: -8px;
+    }
+  
+    .card-img img {
+        height: 190px;
+    }
+   
+    .pro-card{
+        width: 15em;
+    }
+
+}
+@media screen and (max-width:401px) {
+    body {
+        font-size: 12px;
+    }
+    header {
+        justify-content: space-between;
+    }
+    .nav {
+        padding: 2px;
+        margin-left: -10px;
+    }
+    .tit {
+        margin-left: -8px;
+    }
+   
+    .card-img img {
+        height: 170px;
+    }
+   
+    .pro-card{
+        width: 13em;
+    }
+
+}
+@media screen and (max-width:375px) {
+    body {
+        font-size: 11px;
+    }
+    header {
+        justify-content: space-between;
+    }
+    .nav {
+        padding: 2px;
+        margin-left: -10px;
+    }
+    .tit {
+        margin-left: -8px;
+    }
+   
+    .card-img img {
+        height: 160px;
+    }
+   
+    .pro-card{
+        width: 13em;
+    }
+
+}
+@media screen and (max-width:349px) {
+    body {
+        font-size: 10px;
+    }
+    header {
+        justify-content: space-between;
+    }
+    .nav {
+        padding: 2px;
+        margin-left: -10px;
+    }
+    .tit {
+        margin-left: -8px;
+    }
+   
+    .card-img img {
+        height: 150px;
+    }
+   
+    .pro-card{
+        width: 13em;
+    }
+
+}
+@media screen and (max-width:323px) {
+    body {
+        font-size: 10px;
+    }
+    header {
+        justify-content: space-between;
+    }
+    .nav {
+        padding: 2px;
+        margin-left: -10px;
+    }
+    .tit {
+        margin-left: -8px;
+    }
+   
+    .card-img img {
+        height: 140px;
+    }
+   
+    .pro-card{
+        width: 12em;
+    }
+
+}
+@media screen and (max-width:323px) {
+    body {
+        font-size: 10px;
+    }
+    header {
+        justify-content: space-between;
+    }
+    .nav {
+        padding: 2px;
+        margin-left: -10px;
+    }
+    .tit {
+        margin-left: -8px;
+    }
+   
+    .card-img img {
+        height: 160px;
+    }
+   
+    .pro-card{
+        width: 15em;
+    }
+
+}
